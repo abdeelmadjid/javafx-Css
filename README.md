@@ -2,8 +2,11 @@ javafx CSS
 
 Feateurs 
 -effects when press buttons
+
 -effects when hoverOver buttons
+
 -drag the hole stage when press on any node 
+
 -transparnt stage
 
 

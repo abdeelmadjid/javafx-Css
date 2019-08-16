@@ -7,9 +7,6 @@
 	-fx-font-size: 12px;
     -fx-font-family:Arial;
     -fx-background-color: #BC5A2B;
-
-
-
 }
 #hbox{
 	-fx-background-color: linear-gradient(to bottom,skyblue,blue)
@@ -19,8 +16,6 @@
 }
 #listview{
 	-fx-background-color:red;
-
-
 }
 #button0:hover{
 	-fx-background-color: orange;
@@ -38,7 +33,6 @@
 #button{
 	-fx-background-color: Transparent;
 	-fx-text-fill: white;
-
 }
 #button:hover{
 	-fx-background-color: white;

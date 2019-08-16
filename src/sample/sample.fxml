@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="gridpane" alignment="center" hgap="10" onMouseDragged="#dragged" onMousePressed="#pressed" stylesheets="@style.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <HBox fx:id="hbox" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <Button fx:id="button" onAction="#fileChoser" text="exit" />
+        <CheckBox fx:id="chekBox" text="checkBox" />
+        <RadioButton fx:id="radioButton" text="radioButton" />
+        <ComboBox fx:id="comboBox" />
+        <Label fx:id="label" onMouseEntered="#changeScale" onMouseExited="#changeScale" text="label motherfuckers" />
+      <ListView fx:id="listview" prefHeight="85.0" prefWidth="102.0" />
+
+    </HBox>
+    <HBox fx:id="hbox0" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <Button fx:id="button0" text="mini" />
+        <CheckBox fx:id="chekBox0" text="checkBox" />
+        <RadioButton fx:id="radioButton0" text="radioButton" />
+        <ComboBox fx:id="comboBox0" />
+        <Label fx:id="label0" text="label0 motherfuckers" />
+        <ListView fx:id="listview0" prefHeight="85.0" prefWidth="102.0" stylesheets="@styleE.css">
+
+        </ListView>
+
+    </HBox>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

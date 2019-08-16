@@ -1,0 +1,53 @@
+#button0{
+	-fx-background-color: red;
+	-fx-text-fill: white;
+	-fx-background-radius: 16px;
+}
+.root{
+	-fx-font-size: 12px;
+    -fx-font-family:Arial;
+    -fx-background-color: #BC5A2B;
+
+
+
+}
+#hbox{
+	-fx-background-color: linear-gradient(to bottom,skyblue,blue)
+}
+#hbox0{
+	-fx-background-color: linear-gradient(to left,lightblue,skyblue,darkblue)
+}
+#listview{
+	-fx-background-color:red;
+
+
+}
+#button0:hover{
+	-fx-background-color: orange;
+	-fx-text-fill: white;
+	-fx-background-radius: 16px;
+}#button0:pressed{
+	 -fx-background-color: blue;
+	 -fx-text-fill: white;
+	 -fx-background-radius: 16px;
+ }
+ #chekBox:selected{
+	 -fx-background-color: red;
+
+ }
+#button{
+	-fx-background-color: Transparent;
+	-fx-text-fill: white;
+
+}
+#button:hover{
+	-fx-background-color: white;
+	-fx-text-fill: black;
+
+	-fx-background-radius: 16px;
+}
+#button:pressed{
+	-fx-scale-x: 0.9;
+	-fx-scale-y:0.9 ;
+}
+

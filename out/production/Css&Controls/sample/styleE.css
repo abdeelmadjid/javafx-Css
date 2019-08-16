@@ -1,0 +1,19 @@
+
+
+.list-cell {
+    -fx-text-fill: black; /* 5 */
+}
+.list-cell:odd {
+    -fx-background-color: white; /* 1 */
+}
+.list-cell:even {
+    -fx-background-color: #8f8; /* for information */
+}
+.list-cell:filled:hover {
+    -fx-background-color: #00f; /* 2 */
+    -fx-text-fill: white; /* 5 */
+}
+.list-cell:empty:hover {
+    -fx-background-color: #ffe600; /* 2 */
+    -fx-text-fill: white; /* 5 */
+}
